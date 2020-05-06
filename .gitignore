@@ -110,8 +110,6 @@ venv.bak/
 
 *.o
 
-*.jpg
-*.png
 *.rflo
 *.flo
-demo/
+/demo
