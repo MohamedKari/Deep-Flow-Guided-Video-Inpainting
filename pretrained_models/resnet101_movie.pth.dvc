@@ -1,0 +1,7 @@
+md5: dc7506e127d869990d962177dfbac703
+outs:
+- md5: 33a37686a5a724aa64ba36e77cef66d5
+  path: resnet101_movie.pth
+  cache: true
+  metric: false
+  persist: false

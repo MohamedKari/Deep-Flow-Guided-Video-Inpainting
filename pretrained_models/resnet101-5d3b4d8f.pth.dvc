@@ -1,0 +1,7 @@
+md5: abbb25d8c7a81463e56d49ec6edab996
+outs:
+- md5: 87fd2bc7d2c445a61dfdb68f2ed720cc
+  path: resnet101-5d3b4d8f.pth
+  cache: true
+  metric: false
+  persist: false
