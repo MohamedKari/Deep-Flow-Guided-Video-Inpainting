@@ -1,0 +1,7 @@
+md5: c5afd7df13af4e3e2db88fc39a94f6b0
+outs:
+- md5: 70222e3efaa5d5cec3387f4d347d6899
+  path: davis_stage2.pth
+  cache: true
+  metric: false
+  persist: false

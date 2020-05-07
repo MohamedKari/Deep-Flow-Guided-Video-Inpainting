@@ -1,0 +1,7 @@
+md5: 9d76da35974b4059c96e54c186d9c94b
+outs:
+- md5: eb0b7881e570e6a08a108b72515675bd
+  path: FlowNet2_checkpoint.pth.tar
+  cache: true
+  metric: false
+  persist: false

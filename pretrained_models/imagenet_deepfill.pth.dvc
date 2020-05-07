@@ -1,0 +1,7 @@
+md5: a01e6faa7124e3edb77d64a993f5ced0
+outs:
+- md5: 4c6533479ebe9575985e86fa14e7b2f2
+  path: imagenet_deepfill.pth
+  cache: true
+  metric: false
+  persist: false

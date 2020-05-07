@@ -1,0 +1,7 @@
+md5: da3514b2f9dabfd626abda1e72de5816
+outs:
+- md5: f44fef7089b985570c20b93db6a02a78
+  path: resnet50_stage1.pth
+  cache: true
+  metric: false
+  persist: false
