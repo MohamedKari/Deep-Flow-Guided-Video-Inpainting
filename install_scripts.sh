@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-if [ $# -eq 0 ] then
+if [ $# -eq 0 ]
+    then
     echo "No arguments supplied"
     echo "Please indicate your CUDA SM compatability version"
     echo "Look up your Compute Compatibility Version for GPU under https://en.wikipedia.org/wiki/CUDA#GPUs_supported"
