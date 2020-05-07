@@ -26,7 +26,7 @@ install-gcc-v6.5:
 	gcc -v
 
 compile-flownet:
-	install-scripts.sh $(ARCH)
+	bash install_scripts.sh $(ARCH)
 
 install-on-colab-part1:
 	pip install -r requirements.txt
