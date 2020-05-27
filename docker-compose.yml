@@ -1,4 +1,4 @@
-version: "3.7"
+version: "2.4"
 
 services:
   deep-video-inpainting:
@@ -8,4 +8,9 @@ services:
     # image: pytorch/pytorch:0.4-cuda9-cudnn7-devel
     working_dir: /app
     volumes: 
-      - $PWD/data:/data
+      - $PWD/results:/app/results
+    runtime: nvidia
+    # ipc: host 
+    shm_size: 2gb 
+    # check what ipc means
+    entrypoint: ["/bin/bash"] 
