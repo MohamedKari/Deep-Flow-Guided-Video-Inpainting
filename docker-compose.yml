@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  deep-video-inpainting:
+    build: 
+      context: .
+    image: 617095144398.dkr.ecr.eu-central-1.amazonaws.com/deep-video-inpainting
+    # image: pytorch/pytorch:0.4-cuda9-cudnn7-devel
+    working_dir: /app
+    volumes: 
+      - $PWD/data:/data
