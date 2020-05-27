@@ -3,3 +3,7 @@
 __pycache__/
 results/vinet_agg_rec/davis_512/
 save_agg_rec_512.pth
+lib/resample2d_package/_ext/__init__.py
+lib/resample2d_package/_ext/resample2d/__init__.py
+models/correlation_package/_ext/__init__.py
+models/correlation_package/_ext/correlation/__init__.py
