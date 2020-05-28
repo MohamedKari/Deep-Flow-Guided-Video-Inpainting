@@ -1,4 +1,2 @@
-cd ./lib/resample2d_package 
-./make.sh
-cd ../../models/correlation_package
-./make.sh
+(cd models/correlation_package && python setup.py install) && \
+(cd lib/resample2d_package && python setup.py install)
