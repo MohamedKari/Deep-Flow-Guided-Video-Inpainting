@@ -1,3 +1,5 @@
+cython
 opencv-python
 matplotlib
 tqdm
+scipy==1.2.0
