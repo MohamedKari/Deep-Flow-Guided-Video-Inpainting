@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 import sys
 from time import time
-from .correlation_package.modules.correlation import Correlation
+from .correlation_package.correlation import Correlation
 from .gated_conv import GatedConvolution, GatedUpConvolution
 import pdb
 
